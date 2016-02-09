@@ -2,7 +2,7 @@ using GLib;
 using Gee;
 using EasyJSON;
 
-class JSONDemo : Object {
+public class JSONDemo : Object {
 
     public static int main(string[] args) {
       var greenFruits = new ArrayList<string>();
